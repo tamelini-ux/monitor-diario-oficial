@@ -1,4 +1,10 @@
-import requests
+print("🚀 APP INICIANDO...")
+
+import time
+
+while True:
+    print("🔁 LOOP ATIVO")
+    time.sleep(10)import requests
 from bs4 import BeautifulSoup
 from twilio.rest import Client
 import os
