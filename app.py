@@ -164,3 +164,9 @@ def verificar_diario():
 # =========================
 if __name__ == "__main__":
     verificar_diario()
+import time
+
+while True:
+    print("🚀 Rodando verificação...")
+    verificar_diario()
+    time.sleep(60)
