@@ -13,7 +13,7 @@ from pdf2image import convert_from_bytes
 # =========================
 # CONFIG
 # =========================
-NOME = "prefeitura"
+NOME = "Guilherme Tamelini"
 URL_BASE = "https://www.riopreto.sp.gov.br/diario-oficial"
 ARQUIVO_CONTROLE = "verificados.json"
 
