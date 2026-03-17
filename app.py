@@ -1,7 +1,10 @@
-print("🚀 FUNCIONANDO")
+import http.server
+import socketserver
 
-import time
+PORT = 8080
 
-while True:
-    print("⏱️ rodando...")
-    time.sleep(5)
+Handler = http.server.SimpleHTTPRequestHandler
+
+with socketserver.TCPServer(("", PORT), Handler) as httpd:
+    print("🚀 Servidor rodando na porta", PORT)
+    httpd.serve_forever()
